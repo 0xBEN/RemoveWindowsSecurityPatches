@@ -30,7 +30,7 @@ else {
 }
 ```
 This block of code will account for patch removals that fail when the uninstaller dies too quickly.
-The uninstaller is running in the backgroun with no output. This queues failed patches for re-execution later.
+The uninstaller is running in the background with no output. This queues failed patches for re-execution later.
 The re-execution at the end of the script runs the installer in the foreground, so you can see the output.
 I tested `wusa` with the `/log:<somefile.evtx>` parameter, but the information is just not great.
 You get better information from `wusa` when it's run in the foreground.
