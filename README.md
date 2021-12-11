@@ -29,7 +29,7 @@ else {
     Write-Host "Successfully removed $i of $patchCount`: KB$id" -ForegroundColor Green
 }
 ```
-This block of code will account for patch removals that fail when the uninstaller dies to quickly.
+This block of code will account for patch removals that fail when the uninstaller dies too quickly.
 The uninstaller is running in the backgroun with no output. This queues failed patches for re-execution later.
 The re-execution at the end of the script runs the installer in the foreground, so you can see the output.
 I tested `wusa` with the `/log:<somefile.evtx>` parameter, but the information is just not great.
