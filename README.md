@@ -2,7 +2,7 @@
 PowerShell script that can be used to create vulnerable Windows targets.
 
 # Usage
-1. Install `git` on the Windows target [git-scm](https://git-scm.com/download/win)
+1. Install `git` on the Windows target: [git-scm](https://git-scm.com/download/win)
 2. Clone this repository: `git clone https://github.com/0xBEN/RemoveWindowsSecurityPatches`
 3. Open PowerShell as administrator 
 4. Set the execution policy to allow running of unsigned scripts
