@@ -10,7 +10,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 ```
 4. Change directory to the folder containing this script
 ```powershell
-cd C:\Path\To\RemoveWindowsSecurityPatches
+cd C:\Path\To\Directory
 ```
 5. Run the script
 ```powershell
